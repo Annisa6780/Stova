@@ -1,0 +1,22 @@
+<?xml versin="1.0" encding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.andrid.cm/tls"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradasi"
+    android:id="@+id/splashScreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STOVIA"
+        android:textSize="60sp"
+        android:textColor="@color/teks1"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:layout_marginTop="338dp"
+        android:textStyle="bold"   />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teks1">#000</color>
+    <color name="teks2">#fff</color>
+    <color name="peringatan">##F01F1F</color>
+    <color name="icon">#41416E</color>
+    <color name="tambahan">#9C88B7</color>
+    <color name="button">#3157DE</color>
+</resources>
