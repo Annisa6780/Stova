@@ -1,5 +1,5 @@
 # Stovia (Macro_Srikandi_Afternoon)
-<br>Stovia merupakan sebuah aplikasi yang untuk melaporankan atau memberikan tips dan trik untuk mencegah terjadinya tindak kekerasan yang terjadi di masyarakat. Projek ini bernama project macro dari program kampus merdeka yang diselenggarakan oleh Infinite Learning.
+Stovia merupakan sebuah aplikasi yang untuk melaporankan atau memberikan tips dan trik untuk mencegah terjadinya tindak kekerasan yang terjadi di masyarakat. Projek ini bernama project macro dari program kampus merdeka yang diselenggarakan oleh Infinite Learning.
 <br>Srikandi Tim :
 <br> Aulia Suci Mareta/Husler/Institut Teknologi Batam
 <br> Annisa Laila Rahmawati/Hacker/Politeknik Negeri Jember
