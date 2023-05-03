@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoarding"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panic Attack"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="monospace"
+        android:layout_margin="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Don't let yourself overcome by anger, because anger will only torment your mind"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_template"
+        android:text="Next"
+        android:textSize="15sp"
+        android:fontFamily="serif-monospace"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:onClick="sendMessage"/>
+
+</LinearLayout>
