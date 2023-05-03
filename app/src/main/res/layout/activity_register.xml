@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+    <FrameLayout
+        android:id="@+id/frprofil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profil"
+            />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/baseline_photo_camera_24" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ly_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frprofil"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppins"
+            android:hint="Enter Your Full Nama"
+            android:paddingLeft="20dp"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Email"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            />
+
+        <EditText
+            android:id="@+id/edt_age"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Age"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            />
+
+        <EditText
+            android:id="@+id/edt_address"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Address"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Email"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/textsyarat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/ly_1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/baseline_fiber_manual_record_24"
+            />
+        <TextView
+            android:id="@+id/fptext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ly_1"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Syarat &amp; Persetujuan"
+            android:textSize="12sp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textsyarat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:width="200dp"
+        android:backgroundTint="@color/black"
+        android:padding="15dp"
+        android:text="Register"
+        android:textSize="16sp"
+        app:cornerRadius="25dp" />
+
+
+
+</RelativeLayout>

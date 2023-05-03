@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="5dp"
+    card_view:cardCornerRadius="15dp"
+    card_view:cardBackgroundColor="@color/bgend">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/profilkomunitas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="2dp">
+            
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/gambar_profil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/komunitas_name"
+                android:layout_marginLeft="16dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/round_more_horiz_24"
+                android:layout_marginLeft="100dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgkomunitas"
+            android:layout_width="362dp"
+            android:layout_height="186dp"
+            android:layout_below="@+id/profilkomunitas"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="2dp"
+            android:src="@drawable/konten" />
+
+        <LinearLayout
+            android:id="@+id/ikon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/imgkomunitas"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="2dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/round_favorite_border_24"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/round_chat_bubble_outline_24"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/outline_send_24"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

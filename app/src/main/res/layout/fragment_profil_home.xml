@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profil.profil_homeFragment"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:id="@+id/img_rofil"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center_horizontal">
+
+        <FrameLayout
+            android:id="@+id/gambar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gambar_profil"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="70dp"
+                android:layout_gravity="bottom"
+                android:src="@drawable/baseline_photo_camera_24" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/textnama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txtnama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textSize="16dp"
+                android:text="@string/nama" />
+
+            <TextView
+                android:id="@+id/txtemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:fontFamily="@font/montserrat_semibold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_rofil"
+        android:layout_margin="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_name"
+            android:textSize="16sp"
+            android:fontFamily="@font/montserrat_semibold"/>
+
+        <EditText
+            android:id="@+id/edt_nama1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="7dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_email"
+            android:textSize="16sp"
+            android:fontFamily="@font/montserrat_semibold"/>
+
+        <EditText
+            android:id="@+id/edt_email1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="7dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_address"
+            android:textSize="16sp"
+            android:fontFamily="@font/montserrat_semibold"/>
+
+        <EditText
+            android:id="@+id/edt_address1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="7dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_nophone"
+            android:textSize="16sp"
+            android:fontFamily="@font/montserrat_semibold"/>
+
+        <EditText
+            android:id="@+id/edt_nophone1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="7dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_password"
+            android:textSize="16sp"
+            android:fontFamily="@font/montserrat_semibold"/>
+
+        <EditText
+            android:id="@+id/edt_pass1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="7dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

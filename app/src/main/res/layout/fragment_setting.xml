@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:id="@+id/barsetting"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/round_settings_24_black"
+            android:layout_marginRight="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pengaturan"
+            android:fontFamily="@font/montserrat_semibold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/btnsetting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/barsetting"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/edt_about"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/btnset"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="@string/btnabout"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/round_arrow_forward_ios_24_black"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/edt_privacy"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/btnset"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="@string/btnprivasi"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/round_arrow_forward_ios_24_black"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/edt_help"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/btnset"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="@string/btnhelp"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/round_arrow_forward_ios_24_black"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/edt_exit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/btnset"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="@string/btnexit"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/round_arrow_forward_ios_24_black"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+</RelativeLayout>

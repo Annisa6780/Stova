@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Coba"
+rootProject.name = "StovaApp"
 include ':app'

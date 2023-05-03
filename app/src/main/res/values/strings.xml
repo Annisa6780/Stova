@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">Coba</string>
+    <string name="app_name">StovaApp</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_community">Community</string>
+    <string name="title_setting">Setting</string>
+
+    <string name="komunitas_name">Komunitas Perempuan</string>
+    <string name="nama">Srikandi</string>
+    <string name="email">Srikandi06@gmail.com</string>
+
+    <string name="title_name">Name</string>
+    <string name="title_email">Email</string>
+    <string name="title_address">Address</string>
+    <string name="title_nophone">Phone Number</string>
+    <string name="title_password">New Password</string>
+    <string name="title_convpassword">Confirm Password</string>
+
+    <string name="pengaturan">Setting</string>
+
+    <string name="btnabout">About</string>
+    <string name="btnprivasi">Privacy</string>
+    <string name="btnhelp">Help</string>
+    <string name="btnexit">Exit/Log out</string>
+
+    <string name="edtabout">Applikasi ini bertujuan untuk membantu korban berani melapor kepada pihak berwajib maupun bercerita tentang pengalaman yang telah dialami korban. Terdapat beberapa fitur didalamnya seperti One call emergency, Panic Attack, dan berbagi cerita dengan pengguna lainnya.</string>
 </resources>
