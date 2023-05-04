@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/form"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    card_view:cardCornerRadius="15dp"
+    card_view:cardBackgroundColor="@color/Transparent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mohon Agar Tidak membuat Laporan Palsu!"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/peringatan"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/white"
+                android:hint="Nama Pelapor"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:layout_margin="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/white"
+                android:hint="Usia Pelapor"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:layout_margin="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/white"
+                android:hint="Nomor Telepon Pelapor"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:layout_margin="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/white"
+                android:hint="Alamat Pelapor"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:layout_margin="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/white"
+                android:hint="Tanggal Kejadian"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:layout_margin="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/white"
+                android:hint="Lokasi Kejadian"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:layout_margin="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/white"
+                android:hint="Nama Pelapor"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:layout_margin="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/white"
+                android:hint="Nama Pelapor"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:layout_margin="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/white"
+                android:hint="Jenis Laporan (Fisik, Psikis, Pelecehan Seksual,
+                CyberBullying, Eksploitasi"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:layout_margin="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/white"
+                android:hint="Isi Laporan"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/krmLaporan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_shape"
+                android:text="Kirim Laporan"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>

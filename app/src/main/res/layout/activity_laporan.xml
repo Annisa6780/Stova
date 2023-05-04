@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Laporan"
+    android:background="@drawable/gradasi">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_back"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laporan "
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/LaporanAnak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="5dp"
+            android:text="Laporan Anak"
+            android:textSize="20sp"
+            android:fontFamily="serif-monospace"/>
+
+        <Button
+            android:id="@+id/LaporanWanita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:text="Laporan Wanita"
+            android:textSize="20sp"
+            android:fontFamily="serif-monospace"/>
+
+        <Button
+            android:id="@+id/LaporanUmum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:text="Laporan Umum"
+            android:textSize="20sp"
+            android:fontFamily="serif-monospace"/>
+
+        <Button
+            android:id="@+id/Riwayat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:text="Riwayat Laporan"
+            android:textSize="20sp"
+            android:fontFamily="serif-monospace"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
