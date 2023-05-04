@@ -40,9 +40,11 @@
             android:background="@drawable/button_shape"
             android:backgroundTint="@color/white"
             android:fontFamily="@font/poppins"
+            android:textColor="@color/btnset"
             android:hint="Phone number or Email"
             android:paddingLeft="20dp"
-            android:textSize="15sp"/>
+            android:textSize="15sp"
+            android:textColorHint="@color/btnset"/>
 
         <EditText
             android:id="@+id/edt_password"
@@ -50,6 +52,7 @@
             android:layout_height="50dp"
             android:fontFamily="@font/poppins"
             android:hint="Password"
+            android:textColorHint="@color/btnset"
             android:background="@drawable/button_shape"
             android:backgroundTint="@color/white"
             android:paddingLeft="20dp"
@@ -81,6 +84,7 @@
         android:padding="15dp"
         android:backgroundTint="@color/black"
         android:text="Login"
+        android:textColor="@color/white"
         android:textSize="16sp"
         app:cornerRadius="25dp" />
 

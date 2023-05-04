@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OnBoarding1"
+    tools:context=".OnBoarding1Activity"
     android:orientation="vertical"
     android:background="@drawable/gradient_background">
 
@@ -21,7 +21,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/img_1"
+        android:src="@drawable/calling_emergency"
         android:layout_gravity="center"
         android:padding="10dp"
         android:layout_margin="20dp"/>
@@ -38,7 +38,7 @@ violence or harassment experienced"
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button_template"
         android:text="Next"

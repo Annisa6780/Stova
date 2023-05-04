@@ -5,15 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class OnBoarding1 : AppCompatActivity() {
+class OnBoarding2Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_on_boarding1)
+        setContentView(R.layout.activity_on_boarding2)
 
-        val button: Button = findViewById<Button>(R.id.btn1)
+        val button: Button = findViewById<Button>(R.id.btn2)
         button.setOnClickListener {
-            startActivity(Intent(this@OnBoarding1, OnBoarding2::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
         }
-
     }
 }

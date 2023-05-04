@@ -6,6 +6,31 @@
     tools:context=".aboutFragment"
     android:background="@drawable/gradient_background">
 
+    <LinearLayout
+        android:id="@+id/abBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/round_arrow_back_ios_new_24_black"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnabout"
+            android:fontFamily="@font/montserrat_semibold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="120dp"
+            />
+    </LinearLayout>
+
     <TextView
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
@@ -15,6 +40,8 @@
         android:background="@color/btnset"
         android:text="@string/edtabout"
         android:layout_centerVertical="true"
+        android:layout_below="@id/abBack"
+        android:layout_marginTop="200dp"
         />
 
 

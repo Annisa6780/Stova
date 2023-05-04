@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OnBoarding"
+    tools:context=".OnBoardingActivity"
     android:orientation="vertical"
     android:background="@drawable/gradient_background">
 
@@ -21,7 +21,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/img"
+        android:src="@drawable/panick_attack"
         android:layout_gravity="center"
         android:padding="10dp"
         android:layout_margin="20dp"/>
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_template"
         android:text="Next"
-        android:textSize="15sp"
+        android:textSize="20sp"
         android:fontFamily="serif-monospace"
         android:layout_gravity="center"
         android:layout_margin="40dp"

@@ -24,4 +24,15 @@
     <string name="btnexit">Exit/Log out</string>
 
     <string name="edtabout">Applikasi ini bertujuan untuk membantu korban berani melapor kepada pihak berwajib maupun bercerita tentang pengalaman yang telah dialami korban. Terdapat beberapa fitur didalamnya seperti One call emergency, Panic Attack, dan berbagi cerita dengan pengguna lainnya.</string>
+
+    <string name="priv_teman">Teman</string>
+    <string name="priv_publik">Public</string>
+
+    <string name="help1">What can we help you with?</string>
+    <string name="help2">Hubungi Call Center:</string>
+    <string name="phone">+62881395245382</string>
+    <string name="emailapp">stova@gmail.com</string>
+    <string name="web">www.stova.co.id</string>
+    <string name="twetter">\@Stova</string>
+    <string name="instagram">stova_id</string>
 </resources>
